@@ -1,0 +1,10 @@
+int mxVec(double **,int,int,double *,double **);
+int mxVecR(double **,int,int,double *,double *);
+int mxMult(double **,int,int,int,double **,double **);
+int mxAdd(double **,double **,int,int,double **);
+int mxSub(double **,double **,int,int,double **);
+int mxTrns(double **,int,int,double **);
+int mxScr(double **,double,int,int,double **);
+int mxRevGJ(double **,int,double **);
+int svdcmp(double **,int,int,double *,double **);
+double mxDet(double **,int);
